@@ -1,0 +1,25 @@
+CiterLab website imagery / Web görsel kaynakları — 2026-11-08
+
+Product screenshots: captured from the current local CiterLab source under the
+real WorkspaceWindow theme, Windows 125%. Interface icons, toolbars and buttons
+are the actual application controls. No icons have been painted onto screenshots.
+The charts use generated demonstration data; they are not empirical findings.
+The Concept Atlas retains its own source and translation-review notices.
+
+Article visible in screen-citations.png:
+Schäfer, T., & Schwarz, M. A. (2019). The meaningfulness of effect sizes in
+psychological research: Differences between sub-disciplines and the impact of
+potential biases. Frontiers in Psychology, 10, Article 813.
+https://doi.org/10.3389/fpsyg.2019.00813
+Original publication and copyright/license statement:
+https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00813/full
+Copyright © 2019 Schäfer and Schwarz. CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/
+
+Depiction: the body of page 2 is shown inside CiterLab; the title page and page
+header are outside the displayed area. The matching-citations filter is selected.
+The document text is unchanged. Software results shown are algorithmic matches,
+not a verification of the underlying publications or a finding of misconduct.
+The article's authors and publisher do not endorse CiterLab.
+
+CiterLab logo and original product/interface imagery: Nadidem Dijital Sistemleri.

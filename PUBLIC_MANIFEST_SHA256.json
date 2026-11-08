@@ -1,0 +1,20 @@
+{
+  "snapshot_date": "2026-11-08",
+  "scope": "Public showcase files only; no implementation/source-code commitment",
+  "trusted_timestamp": false,
+  "files": {
+    ".gitignore": "de14642188bc01c98a2d1e655e8f7be41968adaaac8f7e3e2149748f559428e2",
+    "ATTRIBUTIONS.txt": "5bd56a68458fa28ed11a6069e862b6434e98f78875d6afdd0f11c8f3da3e0585",
+    "CHANGELOG.md": "6babb815626c1e57f641ac592141255d9f325c077c7fc9c878c8ce5d15bb9090",
+    "NOTICE.md": "3e6e0b63472a64328702ae2ecf9acf8a3e6567feaf0a85d8077de0d14b5f14ed",
+    "README.ar.md": "941a14a4b64cde249932e54b439e0a9f0fcd599e90f2d9da79a8fa92ee26dc6f",
+    "README.de.md": "75c0196d8e21f942ad6f1b10af80aad01c71c5f0c51afc0980f4e61d11746c16",
+    "README.en.md": "1873ba377aea1c88513a7977688bb9ac1b373420075afaa845aed1ceab2ee942",
+    "README.md": "59471e41eced590436bf58b85dc0cffa9ae0efd1dac4026645a1eef1b347ddab",
+    "images/brand-logo.jpg": "c51954aec475ded61f35049f9fa24067e051413c8a049b2db7899ab504bcef51",
+    "images/og.png": "6012aee2a18ed6b426bb5363f8a49696625f2b941754fe96e11010fe0bab7987",
+    "images/screen-charts.png": "eff97bf8abdd2f2a50ffd72348add662c4b840ee4b4ef26e45df3b2b02b7f7c3",
+    "images/screen-citations.png": "60171a2112a9e3150fb470ac7e81a1687e672e6c6e08c9d5ddc3ed303de465b4",
+    "images/screen-concepts.png": "44216f792ccd46604684ff2a7844e3576eca77334d48b20a9c5fd6649e3dcaaf"
+  }
+}

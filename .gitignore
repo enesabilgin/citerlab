@@ -1,0 +1,18 @@
+# Public showcase allowlist. This does not sanitize previously committed history.
+*
+!.gitignore
+!README.md
+!README.en.md
+!README.de.md
+!README.ar.md
+!NOTICE.md
+!CHANGELOG.md
+!ATTRIBUTIONS.txt
+!PUBLIC_MANIFEST_SHA256.json
+!images/
+images/*
+!images/brand-logo.jpg
+!images/og.png
+!images/screen-charts.png
+!images/screen-concepts.png
+!images/screen-citations.png
