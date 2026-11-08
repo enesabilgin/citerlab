@@ -1,0 +1,1567 @@
+{
+  "schema": "citerlab.public-module-showcase.v1",
+  "snapshot_date": "2026-11-08",
+  "scope": "Public interface descriptions, application icons and screenshots only; no implementation code",
+  "counts": {
+    "tools": 29,
+    "tabs": 28,
+    "dialogs": 1
+  },
+  "languages": [
+    "tr",
+    "en",
+    "de",
+    "ar"
+  ],
+  "featured": [
+    "excel_analiz",
+    "bib",
+    "bibliometric",
+    "calc"
+  ],
+  "capture_notes": {
+    "tr": "Ekranlar Türkçe arayüzden, gerçek uygulama teması altında Windows %125 ölçekte alınmıştır. Örnek veriler ve çalışılmış örnekler araştırma bulgusu değildir. Sonuçları veri, yöntem ve kaynak kapsamıyla birlikte değerlendirin.",
+    "en": "Screenshots show the Turkish interface under the actual application theme at Windows 125% scale. Demonstration data and worked examples are not research findings. Assess results alongside the data, method and source coverage.",
+    "de": "Die Bildschirmfotos zeigen die türkische Oberfläche mit dem tatsächlichen Anwendungsthema bei 125 % Windows-Skalierung. Demonstrationsdaten und Rechenbeispiele sind keine Forschungsergebnisse. Bewerten Sie Ergebnisse zusammen mit Daten, Methode und Quellenabdeckung.",
+    "ar": "تعرض الصور الواجهة التركية بسمة التطبيق الفعلية وعلى مقياس Windows بنسبة 125٪. البيانات التجريبية والأمثلة المحلولة ليست نتائج بحثية. قيّم النتائج مع مراعاة البيانات والمنهج ونطاق المصادر."
+  },
+  "modules": [
+    {
+      "id": "excel_analiz",
+      "category": "analysis",
+      "type": "tab",
+      "image": "images/gallery/excel_analiz.webp",
+      "icon": "images/gallery/icon-excel_analiz.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Nicel Analiz",
+        "heading": "Veriden bulguya ilerleyin",
+        "description": "Değişkenlerinizi seçin, uygun analizi çalıştırın ve hesaplanan sonuçları raporunuzda inceleyin.",
+        "slogans": [
+          "ANOVA ile grupları karşılaştırın",
+          "Değişken rollerini açıkça belirleyin",
+          "Bulguları rapora taşıyın"
+        ],
+        "alt": "CiterLab Nicel Analiz çalışma alanında hesaplanmış ANOVA sonuçları"
+      },
+      "en": {
+        "title": "Quantitative Analysis",
+        "heading": "Turn data into findings",
+        "description": "Choose variables, run an appropriate analysis and inspect the calculated results in your report.",
+        "slogans": [
+          "Compare groups with ANOVA",
+          "Define variable roles clearly",
+          "Bring findings into your report"
+        ],
+        "alt": "Calculated ANOVA results in the CiterLab Quantitative Analysis workspace"
+      },
+      "de": {
+        "title": "Quantitative Analyse",
+        "heading": "Von Daten zu Erkenntnissen",
+        "description": "Wählen Sie Variablen, führen Sie eine passende Analyse aus und prüfen Sie die berechneten Ergebnisse im Bericht.",
+        "slogans": [
+          "Gruppen mit ANOVA vergleichen",
+          "Variablenrollen klar festlegen",
+          "Ergebnisse in den Bericht übernehmen"
+        ],
+        "alt": "Berechnete ANOVA-Ergebnisse im Arbeitsbereich für quantitative Analyse von CiterLab"
+      },
+      "ar": {
+        "title": "التحليل الكمي",
+        "heading": "من البيانات إلى النتائج",
+        "description": "اختر المتغيرات ونفّذ التحليل المناسب، ثم راجع النتائج المحسوبة في تقريرك.",
+        "slogans": [
+          "قارن المجموعات بتحليل التباين",
+          "حدّد أدوار المتغيرات بوضوح",
+          "انقل النتائج إلى تقريرك"
+        ],
+        "alt": "نتائج تحليل التباين المحسوبة في مساحة التحليل الكمي في CiterLab"
+      }
+    },
+    {
+      "id": "qda",
+      "category": "analysis",
+      "type": "tab",
+      "image": "images/gallery/qda.webp",
+      "icon": "images/gallery/icon-qda.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Nitel Analiz",
+        "heading": "Anlamı kodlarla görünür kılın",
+        "description": "Kaynak metinlerinizi kodlayın; seçili pasajları, notları ve temalar arasındaki ilişkileri birlikte inceleyin.",
+        "slogans": [
+          "Pasajları doğrudan kodlayın",
+          "Kaynak ve kodları birlikte görün",
+          "Temaları matrislerle inceleyin"
+        ],
+        "alt": "CiterLab Nitel Analiz ekranında kaynak metni, kod ağacı ve kodlanmış pasajlar"
+      },
+      "en": {
+        "title": "Qualitative Analysis",
+        "heading": "Make meaning visible",
+        "description": "Code your source texts and examine selected passages, notes and relationships between themes.",
+        "slogans": [
+          "Code passages directly",
+          "Keep sources and codes in view",
+          "Explore themes through matrices"
+        ],
+        "alt": "Source text, code tree and coded passages in CiterLab Qualitative Analysis"
+      },
+      "de": {
+        "title": "Qualitative Analyse",
+        "heading": "Bedeutung sichtbar machen",
+        "description": "Codieren Sie Quelltexte und untersuchen Sie ausgewählte Passagen, Notizen und Beziehungen zwischen Themen.",
+        "slogans": [
+          "Textpassagen direkt codieren",
+          "Quellen und Codes gemeinsam sehen",
+          "Themen mit Matrizen untersuchen"
+        ],
+        "alt": "Quelltext, Codebaum und codierte Passagen in der qualitativen Analyse von CiterLab"
+      },
+      "ar": {
+        "title": "التحليل النوعي",
+        "heading": "أظهر المعنى بالترميز",
+        "description": "رمّز نصوص المصادر وراجع المقاطع المختارة والملاحظات والعلاقات بين الموضوعات.",
+        "slogans": [
+          "رمّز المقاطع مباشرة",
+          "اعرض المصادر والرموز معًا",
+          "استكشف الموضوعات بالمصفوفات"
+        ],
+        "alt": "نص المصدر وشجرة الرموز والمقاطع المرمّزة في التحليل النوعي في CiterLab"
+      }
+    },
+    {
+      "id": "bib",
+      "category": "research",
+      "type": "tab",
+      "image": "images/gallery/bib.webp",
+      "icon": "images/gallery/icon-bib.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Literatür Taraması",
+        "heading": "Araştırmanızın izini sürün",
+        "description": "Akademik kaynaklarda arama yapın; yayınları, kaynak özetlerini ve seçili cümleleri düzenli görünümlerde inceleyin.",
+        "slogans": [
+          "Yayınları tek listede inceleyin",
+          "Kaynak özetlerine geçin",
+          "Arama sonuçlarını dışa aktarın"
+        ],
+        "alt": "CiterLab Literatür Taraması sekmesinde yayın arama sonuçları ve kaynak bilgileri"
+      },
+      "en": {
+        "title": "Literature Search",
+        "heading": "Follow your research question",
+        "description": "Search academic sources and examine publications, source abstracts and selected sentences in organized views.",
+        "slogans": [
+          "Review publications in one list",
+          "Switch to source abstracts",
+          "Export your search results"
+        ],
+        "alt": "Publication search results and source information in the CiterLab Literature Search tab"
+      },
+      "de": {
+        "title": "Literaturrecherche",
+        "heading": "Der Forschungsfrage folgen",
+        "description": "Durchsuchen Sie wissenschaftliche Quellen und prüfen Sie Publikationen, Originalabstracts und ausgewählte Sätze in geordneten Ansichten.",
+        "slogans": [
+          "Publikationen in einer Liste prüfen",
+          "Zu Originalabstracts wechseln",
+          "Suchergebnisse exportieren"
+        ],
+        "alt": "Publikationssuchergebnisse und Quellenangaben im Literaturrecherche-Tab von CiterLab"
+      },
+      "ar": {
+        "title": "البحث في الأدبيات",
+        "heading": "تتبّع سؤالك البحثي",
+        "description": "ابحث في المصادر الأكاديمية وراجع المنشورات وملخصات المصادر والجمل المختارة في عروض منظمة.",
+        "slogans": [
+          "راجع المنشورات في قائمة واحدة",
+          "انتقل إلى ملخصات المصادر",
+          "صدّر نتائج البحث"
+        ],
+        "alt": "نتائج البحث عن المنشورات ومعلومات المصادر في تبويب البحث في الأدبيات في CiterLab"
+      }
+    },
+    {
+      "id": "bibliometric",
+      "category": "analysis",
+      "type": "tab",
+      "image": "images/gallery/bibliometric.webp",
+      "icon": "images/gallery/icon-bibliometric.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Bibliyometrik Analiz",
+        "heading": "Literatürün örüntülerini keşfedin",
+        "description": "Yayın verilerindeki yılları, yazarları, kaynakları ve terimleri analiz ederek araştırma alanınızı daha yakından tanıyın.",
+        "slogans": [
+          "Yıllara göre dağılımı görün",
+          "Yazar ve kaynakları karşılaştırın",
+          "Veri kalitesini inceleyin"
+        ],
+        "alt": "CiterLab Bibliyometrik Analiz ekranında yayın verilerinden hesaplanan sonuçlar"
+      },
+      "en": {
+        "title": "Bibliometric Analysis",
+        "heading": "Discover patterns in literature",
+        "description": "Analyze years, authors, sources and terms in publication data to understand your research field more closely.",
+        "slogans": [
+          "See publication trends by year",
+          "Compare authors and sources",
+          "Inspect data quality"
+        ],
+        "alt": "Results calculated from publication data in CiterLab Bibliometric Analysis"
+      },
+      "de": {
+        "title": "Bibliometrische Analyse",
+        "heading": "Muster in der Literatur entdecken",
+        "description": "Analysieren Sie Jahre, Autoren, Quellen und Begriffe in Publikationsdaten, um Ihr Forschungsfeld genauer zu verstehen.",
+        "slogans": [
+          "Publikationen nach Jahren betrachten",
+          "Autoren und Quellen vergleichen",
+          "Datenqualität prüfen"
+        ],
+        "alt": "Aus Publikationsdaten berechnete Ergebnisse in der bibliometrischen Analyse von CiterLab"
+      },
+      "ar": {
+        "title": "التحليل الببليومتري",
+        "heading": "اكتشف أنماط الأدبيات",
+        "description": "حلّل السنوات والمؤلفين والمصادر والمصطلحات في بيانات المنشورات لتتعرّف إلى مجالك البحثي بعمق أكبر.",
+        "slogans": [
+          "شاهد توزيع المنشورات حسب السنة",
+          "قارن المؤلفين والمصادر",
+          "راجع جودة البيانات"
+        ],
+        "alt": "نتائج محسوبة من بيانات المنشورات في التحليل الببليومتري في CiterLab"
+      }
+    },
+    {
+      "id": "calc",
+      "category": "analysis",
+      "type": "tab",
+      "image": "images/gallery/calc.webp",
+      "icon": "images/gallery/icon-calc.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Grafik ve Geometri",
+        "heading": "Matematiği çizerek keşfedin",
+        "description": "Fonksiyonları çizin, matematik nesneleri ekleyin ve geometriyi aynı koordinat düzleminde inceleyin.",
+        "slogans": [
+          "eˣ eğrisini görün",
+          "Türev ve integrali inceleyin",
+          "Geometri nesneleri oluşturun"
+        ],
+        "alt": "CiterLab Grafik ve Geometri çalışma alanında çizilmiş e üzeri x fonksiyonu"
+      },
+      "en": {
+        "title": "Graphs and Geometry",
+        "heading": "Explore mathematics visually",
+        "description": "Plot functions, add mathematical objects and explore geometry on the same coordinate plane.",
+        "slogans": [
+          "See the eˣ curve",
+          "Explore derivatives and integrals",
+          "Construct geometric objects"
+        ],
+        "alt": "The exponential function e to the x plotted in the CiterLab Graphs and Geometry workspace"
+      },
+      "de": {
+        "title": "Graphen und Geometrie",
+        "heading": "Mathematik zeichnend entdecken",
+        "description": "Zeichnen Sie Funktionen, fügen Sie mathematische Objekte hinzu und erkunden Sie Geometrie im selben Koordinatensystem.",
+        "slogans": [
+          "Die eˣ-Kurve sehen",
+          "Ableitungen und Integrale erkunden",
+          "Geometrische Objekte konstruieren"
+        ],
+        "alt": "Die im Arbeitsbereich Graphen und Geometrie von CiterLab gezeichnete Exponentialfunktion e hoch x"
+      },
+      "ar": {
+        "title": "الرسوم البيانية والهندسة",
+        "heading": "استكشف الرياضيات بصريًا",
+        "description": "ارسم الدوال وأضف العناصر الرياضية واستكشف الهندسة على المستوى الإحداثي نفسه.",
+        "slogans": [
+          "شاهد منحنى eˣ",
+          "استكشف المشتقات والتكاملات",
+          "أنشئ عناصر هندسية"
+        ],
+        "alt": "الدالة الأسية e مرفوعة للقوة x مرسومة في مساحة الرسوم البيانية والهندسة في CiterLab"
+      }
+    },
+    {
+      "id": "desing",
+      "category": "research",
+      "type": "tab",
+      "image": "images/gallery/desing.webp",
+      "icon": "images/gallery/icon-desing.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Araştırma Tasarımı",
+        "heading": "Sorudan yöntem planına",
+        "description": "Araştırma desenlerini inceleyin; değişkenlerinizi ve analiz seçeneklerinizi açık bir plan etrafında düzenleyin.",
+        "slogans": [
+          "Desenleri açıklamalarıyla inceleyin",
+          "Değişken rollerini planlayın",
+          "Analiz seçeneklerini değerlendirin"
+        ],
+        "alt": "CiterLab Araştırma Tasarımı ekranında seçili araştırma deseni ve yöntem açıklaması"
+      },
+      "en": {
+        "title": "Research Design",
+        "heading": "From question to method",
+        "description": "Explore research designs and organize your variables and analysis options around a clear plan.",
+        "slogans": [
+          "Explore designs with explanations",
+          "Plan your variable roles",
+          "Consider analysis options"
+        ],
+        "alt": "A selected research design and its methodological explanation in CiterLab Research Design"
+      },
+      "de": {
+        "title": "Forschungsdesign",
+        "heading": "Von der Frage zur Methode",
+        "description": "Erkunden Sie Forschungsdesigns und ordnen Sie Variablen und Analyseoptionen in einem klaren Plan.",
+        "slogans": [
+          "Designs mit Erläuterungen erkunden",
+          "Variablenrollen planen",
+          "Analyseoptionen abwägen"
+        ],
+        "alt": "Ausgewähltes Forschungsdesign mit methodischer Erläuterung im Forschungsdesign-Bereich von CiterLab"
+      },
+      "ar": {
+        "title": "تصميم البحث",
+        "heading": "من السؤال إلى المنهج",
+        "description": "استكشف تصاميم البحث ونظّم متغيراتك وخيارات التحليل ضمن خطة واضحة.",
+        "slogans": [
+          "استكشف التصاميم مع شروحها",
+          "خطّط لأدوار المتغيرات",
+          "قيّم خيارات التحليل"
+        ],
+        "alt": "تصميم بحث مختار وشرحه المنهجي في مساحة تصميم البحث في CiterLab"
+      }
+    },
+    {
+      "id": "concept_library",
+      "category": "knowledge",
+      "type": "tab",
+      "image": "images/gallery/concept_library.webp",
+      "icon": "images/gallery/icon-concept_library.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Kavram Kütüphanesi",
+        "heading": "Kavramları bağlamıyla anlayın",
+        "description": "Kavramları tanımları ve kaynaklarıyla keşfedin; ilişkili terimler arasında gezinin ve araştırma metninize taşıyın.",
+        "slogans": [
+          "Tanımı kaynağıyla okuyun",
+          "İlişkili kavramlara geçin",
+          "Metninize kaynaklı içerik ekleyin"
+        ],
+        "alt": "CiterLab Kavram Kütüphanesi ekranında tanım, ilişkili kavramlar ve kaynaklar"
+      },
+      "en": {
+        "title": "Concept Library",
+        "heading": "Understand concepts in context",
+        "description": "Explore concepts with definitions and sources, follow related terms and bring sourced content into your research text.",
+        "slogans": [
+          "Read definitions with sources",
+          "Follow related concepts",
+          "Add sourced content to your text"
+        ],
+        "alt": "A definition, related concepts and sources in the CiterLab Concept Library"
+      },
+      "de": {
+        "title": "Begriffsbibliothek",
+        "heading": "Begriffe im Kontext verstehen",
+        "description": "Entdecken Sie Begriffe mit Definitionen und Quellen, folgen Sie verwandten Begriffen und übernehmen Sie belegte Inhalte in Ihren Text.",
+        "slogans": [
+          "Definitionen mit Quellen lesen",
+          "Verwandten Begriffen folgen",
+          "Belegte Inhalte in Texte übernehmen"
+        ],
+        "alt": "Definition, verwandte Begriffe und Quellen in der Begriffsbibliothek von CiterLab"
+      },
+      "ar": {
+        "title": "مكتبة المفاهيم",
+        "heading": "افهم المفاهيم في سياقها",
+        "description": "استكشف المفاهيم مع تعريفاتها ومصادرها، وانتقل بين المصطلحات المرتبطة وأضف محتوى موثّقًا إلى نصك البحثي.",
+        "slogans": [
+          "اقرأ التعريف مع مصدره",
+          "تتبّع المفاهيم المرتبطة",
+          "أضف محتوى موثّقًا إلى نصك"
+        ],
+        "alt": "تعريف ومفاهيم مرتبطة ومصادر في مكتبة المفاهيم في CiterLab"
+      }
+    },
+    {
+      "id": "databank",
+      "category": "knowledge",
+      "type": "tab",
+      "image": "images/gallery/databank.webp",
+      "icon": "images/gallery/icon-databank.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Veri Bankası",
+        "heading": "Veriyi araştırmanıza bağlayın",
+        "description": "Veri kaynaklarını keşfedin veya yerel dosyanızı açın; tabloları süzerek ihtiyaç duyduğunuz gözlemleri inceleyin.",
+        "slogans": [
+          "Veri kaynaklarını keşfedin",
+          "Yerel dosyanızı içe aktarın",
+          "Tabloyu süzün ve inceleyin"
+        ],
+        "alt": "CiterLab Veri Bankası çalışma alanında veri tablosu ve filtreleme araçları"
+      },
+      "en": {
+        "title": "Data Bank",
+        "heading": "Connect data to research",
+        "description": "Explore data sources or open a local file, then filter tables to inspect the observations you need.",
+        "slogans": [
+          "Explore data sources",
+          "Import a local file",
+          "Filter and inspect your table"
+        ],
+        "alt": "A data table and filtering tools in the CiterLab Data Bank workspace"
+      },
+      "de": {
+        "title": "Datenbank für Forschungsdaten",
+        "heading": "Daten mit Forschung verbinden",
+        "description": "Erkunden Sie Datenquellen oder öffnen Sie eine lokale Datei und filtern Sie Tabellen nach den benötigten Beobachtungen.",
+        "slogans": [
+          "Datenquellen erkunden",
+          "Lokale Dateien importieren",
+          "Tabellen filtern und prüfen"
+        ],
+        "alt": "Datentabelle und Filterwerkzeuge im Forschungsdaten-Bereich von CiterLab"
+      },
+      "ar": {
+        "title": "بنك البيانات",
+        "heading": "اربط البيانات ببحثك",
+        "description": "استكشف مصادر البيانات أو افتح ملفًا محليًا، ثم رشّح الجداول لمراجعة المشاهدات التي تحتاجها.",
+        "slogans": [
+          "استكشف مصادر البيانات",
+          "استورد ملفًا محليًا",
+          "رشّح جدولك وافحصه"
+        ],
+        "alt": "جدول بيانات وأدوات ترشيح في مساحة بنك البيانات في CiterLab"
+      }
+    },
+    {
+      "id": "cheatsheets",
+      "category": "knowledge",
+      "type": "tab",
+      "image": "images/gallery/cheatsheets.webp",
+      "icon": "images/gallery/icon-cheatsheets.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Başvuru Rehberleri",
+        "heading": "Bilgi elinizin altında",
+        "description": "Konu rehberlerini formülleri ve örnekleriyle okuyun; arama yapın ve seçtiğiniz rehberi dışa aktarın.",
+        "slogans": [
+          "Konular arasında hızla gezinin",
+          "Formül ve örnekleri birlikte görün",
+          "Rehberleri PDF veya DOCX alın"
+        ],
+        "alt": "CiterLab Başvuru Rehberleri ekranında konu listesi ve formüllü rehber sayfası"
+      },
+      "en": {
+        "title": "Reference Guides",
+        "heading": "Knowledge within reach",
+        "description": "Read subject guides with formulas and examples, search their content and export your chosen guide.",
+        "slogans": [
+          "Move quickly between subjects",
+          "See formulas with examples",
+          "Export guides to PDF or DOCX"
+        ],
+        "alt": "Subject list and a guide page with formulas in CiterLab Reference Guides"
+      },
+      "de": {
+        "title": "Nachschlagehilfen",
+        "heading": "Wissen schnell zur Hand",
+        "description": "Lesen Sie Themenleitfäden mit Formeln und Beispielen, durchsuchen Sie Inhalte und exportieren Sie den gewählten Leitfaden.",
+        "slogans": [
+          "Schnell zwischen Themen wechseln",
+          "Formeln mit Beispielen betrachten",
+          "Leitfäden als PDF oder DOCX exportieren"
+        ],
+        "alt": "Themenliste und Leitfadenseite mit Formeln in den Nachschlagehilfen von CiterLab"
+      },
+      "ar": {
+        "title": "الأدلة المرجعية",
+        "heading": "المعرفة في متناولك",
+        "description": "اقرأ أدلة الموضوعات مع الصيغ والأمثلة، وابحث في محتواها وصدّر الدليل الذي تختاره.",
+        "slogans": [
+          "تنقّل سريعًا بين الموضوعات",
+          "شاهد الصيغ مع أمثلتها",
+          "صدّر الأدلة بصيغة PDF أو DOCX"
+        ],
+        "alt": "قائمة موضوعات وصفحة دليل تحتوي على صيغ في الأدلة المرجعية في CiterLab"
+      }
+    },
+    {
+      "id": "library",
+      "category": "research",
+      "type": "tab",
+      "image": "images/gallery/library.webp",
+      "icon": "images/gallery/icon-library.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Kaynak Arşivi",
+        "heading": "Kaynaklarınıza yeniden ulaşın",
+        "description": "Arşivlediğiniz yayın ve belgeleri arayın; kaynak bilgilerini ve kayıtlı içeriklerini araştırmanızla birlikte inceleyin.",
+        "slogans": [
+          "Arşivde arama yapın",
+          "Kaynak bilgilerini inceleyin",
+          "Kayıtlı belgelere geri dönün"
+        ],
+        "alt": "CiterLab Kaynak Arşivi ekranında arama sonuçları ve seçili kaynak kaydı"
+      },
+      "en": {
+        "title": "Reference Archive",
+        "heading": "Return to your sources",
+        "description": "Search archived publications and documents, then review their source details and saved content alongside your research.",
+        "slogans": [
+          "Search your archive",
+          "Inspect source details",
+          "Return to saved documents"
+        ],
+        "alt": "Search results and a selected source record in the CiterLab Reference Archive"
+      },
+      "de": {
+        "title": "Quellenarchiv",
+        "heading": "Quellen wiederfinden",
+        "description": "Durchsuchen Sie archivierte Publikationen und Dokumente und prüfen Sie Quellenangaben und gespeicherte Inhalte zu Ihrer Forschung.",
+        "slogans": [
+          "Das Archiv durchsuchen",
+          "Quellenangaben prüfen",
+          "Gespeicherte Dokumente wieder öffnen"
+        ],
+        "alt": "Suchergebnisse und ausgewählter Quelleneintrag im Quellenarchiv von CiterLab"
+      },
+      "ar": {
+        "title": "أرشيف المصادر",
+        "heading": "عُد إلى مصادرك",
+        "description": "ابحث في المنشورات والوثائق المؤرشفة، وراجع بيانات مصادرها ومحتواها المحفوظ إلى جانب بحثك.",
+        "slogans": [
+          "ابحث في أرشيفك",
+          "راجع بيانات المصادر",
+          "عُد إلى الوثائق المحفوظة"
+        ],
+        "alt": "نتائج بحث وسجل مصدر مختار في أرشيف المصادر في CiterLab"
+      }
+    },
+    {
+      "id": "bibliography_check",
+      "category": "research",
+      "type": "tab",
+      "image": "images/gallery/bibliography_check.webp",
+      "icon": "images/gallery/icon-bibliography_check.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Kaynakça Denetimi",
+        "heading": "Atıfların izini kontrol edin",
+        "description": "Belgedeki atıflarla kaynakça kayıtlarının eşleşmesini inceleyin; eşleşenleri ve gözden geçirilmesi gerekenleri raporda görün.",
+        "slogans": [
+          "Atıf ve kaynakçayı karşılaştırın",
+          "Eşleşmeleri birlikte inceleyin",
+          "Denetim raporuna geçin"
+        ],
+        "alt": "CiterLab Kaynakça Denetimi ekranında belge atıfları ve kaynakça eşleşmelerinin sonuçları"
+      },
+      "en": {
+        "title": "Citation Checker",
+        "heading": "Check the citation trail",
+        "description": "Inspect matches between document citations and bibliography entries, with matched items and review points in a report.",
+        "slogans": [
+          "Compare citations and references",
+          "Inspect matches together",
+          "Open the checking report"
+        ],
+        "alt": "Document citation and bibliography matching results in CiterLab Citation Checker"
+      },
+      "de": {
+        "title": "Zitationsprüfung",
+        "heading": "Zitationsspuren prüfen",
+        "description": "Prüfen Sie die Zuordnung von Zitaten und Literaturverzeichniseinträgen; der Bericht zeigt Treffer und zu prüfende Stellen.",
+        "slogans": [
+          "Zitate und Literaturangaben abgleichen",
+          "Zuordnungen gemeinsam prüfen",
+          "Den Prüfbericht öffnen"
+        ],
+        "alt": "Ergebnisse des Abgleichs von Zitaten und Literaturverzeichnis in der Zitationsprüfung von CiterLab"
+      },
+      "ar": {
+        "title": "تدقيق الاستشهادات",
+        "heading": "تحقّق من مسار الاستشهاد",
+        "description": "راجع تطابق استشهادات الوثيقة مع مراجعها، وشاهد العناصر المتطابقة والنقاط التي تحتاج إلى مراجعة في التقرير.",
+        "slogans": [
+          "قارن الاستشهادات بالمراجع",
+          "راجع المطابقات معًا",
+          "افتح تقرير التدقيق"
+        ],
+        "alt": "نتائج مطابقة استشهادات الوثيقة مع المراجع في أداة تدقيق الاستشهادات في CiterLab"
+      }
+    },
+    {
+      "id": "lo_docx",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/lo_docx.webp",
+      "icon": "images/gallery/icon-lo_docx.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "DOCX",
+        "heading": "Bulgularınızı metne dönüştürün",
+        "description": "Araştırma belgenizi çalışma alanında yazın; başlıklar, tablolar ve görsellerle düzenleyip kaydedin.",
+        "slogans": [
+          "Metninizi biçimlendirin",
+          "Tablo ve görseller ekleyin",
+          "Belgenizi çalışma alanında düzenleyin"
+        ],
+        "alt": "CiterLab içinde açılmış biçimlendirilmiş DOCX araştırma belgesi"
+      },
+      "en": {
+        "title": "DOCX",
+        "heading": "Put findings into words",
+        "description": "Write your research document in the workspace, organize it with headings, tables and images, then save your work.",
+        "slogans": [
+          "Format your text",
+          "Add tables and images",
+          "Edit within your workspace"
+        ],
+        "alt": "A formatted DOCX research document open within CiterLab"
+      },
+      "de": {
+        "title": "DOCX",
+        "heading": "Erkenntnisse in Worte fassen",
+        "description": "Schreiben Sie Ihr Forschungsdokument im Arbeitsbereich, gestalten Sie es mit Überschriften, Tabellen und Bildern und speichern Sie es.",
+        "slogans": [
+          "Texte formatieren",
+          "Tabellen und Bilder ergänzen",
+          "Im Arbeitsbereich bearbeiten"
+        ],
+        "alt": "Ein formatiertes DOCX-Forschungsdokument, geöffnet in CiterLab"
+      },
+      "ar": {
+        "title": "DOCX",
+        "heading": "حوّل النتائج إلى كلمات",
+        "description": "اكتب وثيقتك البحثية في مساحة العمل ونظّمها بالعناوين والجداول والصور، ثم احفظ عملك.",
+        "slogans": [
+          "نسّق نصك",
+          "أضف الجداول والصور",
+          "حرّر داخل مساحة عملك"
+        ],
+        "alt": "وثيقة بحثية منسّقة بصيغة DOCX مفتوحة داخل CiterLab"
+      }
+    },
+    {
+      "id": "lo_xlsx",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/lo_xlsx.webp",
+      "icon": "images/gallery/icon-lo_xlsx.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "XLSX",
+        "heading": "Verilerinizi düzenli tutun",
+        "description": "Hesap tablonuzu çalışma alanında açın; hücreleri, formülleri ve tablo düzenini belge üzerinde düzenleyin.",
+        "slogans": [
+          "Hücreleri doğrudan düzenleyin",
+          "Formüllerle hesaplayın",
+          "Çalışma kitabınızı kaydedin"
+        ],
+        "alt": "CiterLab içinde açılmış verilerle dolu XLSX hesap tablosu"
+      },
+      "en": {
+        "title": "XLSX",
+        "heading": "Keep your data organized",
+        "description": "Open your spreadsheet in the workspace and edit its cells, formulas and table layout directly.",
+        "slogans": [
+          "Edit cells directly",
+          "Calculate with formulas",
+          "Save your workbook"
+        ],
+        "alt": "An XLSX spreadsheet containing data open within CiterLab"
+      },
+      "de": {
+        "title": "XLSX",
+        "heading": "Daten übersichtlich ordnen",
+        "description": "Öffnen Sie Ihre Tabelle im Arbeitsbereich und bearbeiten Sie Zellen, Formeln und Tabellenlayout direkt.",
+        "slogans": [
+          "Zellen direkt bearbeiten",
+          "Mit Formeln rechnen",
+          "Arbeitsmappen speichern"
+        ],
+        "alt": "Eine mit Daten gefüllte XLSX-Tabelle, geöffnet in CiterLab"
+      },
+      "ar": {
+        "title": "XLSX",
+        "heading": "حافظ على تنظيم بياناتك",
+        "description": "افتح جدول بياناتك في مساحة العمل وحرّر خلاياه وصيغه وتنسيقه مباشرة.",
+        "slogans": [
+          "حرّر الخلايا مباشرة",
+          "احسب باستخدام الصيغ",
+          "احفظ مصنفك"
+        ],
+        "alt": "جدول بيانات بصيغة XLSX يحتوي على بيانات ومفتوح داخل CiterLab"
+      }
+    },
+    {
+      "id": "lo_pptx",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/lo_pptx.webp",
+      "icon": "images/gallery/icon-lo_pptx.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "SUNUM",
+        "heading": "Araştırmanızı sahneye taşıyın",
+        "description": "Sunum slaytlarınızı çalışma alanında düzenleyin; metin ve görsellerle araştırmanızın anlatısını oluşturun.",
+        "slogans": [
+          "Slaytları düzenleyin",
+          "Metin ve görselleri birleştirin",
+          "Sunumunuzu kaydedin"
+        ],
+        "alt": "CiterLab içindeki sunum düzenleyicisinde araştırma slaydı"
+      },
+      "en": {
+        "title": "Presentation",
+        "heading": "Bring research to the audience",
+        "description": "Edit presentation slides in your workspace and shape your research story with text and images.",
+        "slogans": [
+          "Edit your slides",
+          "Combine text and images",
+          "Save your presentation"
+        ],
+        "alt": "A research slide in the presentation editor within CiterLab"
+      },
+      "de": {
+        "title": "Präsentation",
+        "heading": "Forschung anschaulich präsentieren",
+        "description": "Bearbeiten Sie Folien im Arbeitsbereich und erzählen Sie Ihre Forschung mit Texten und Bildern.",
+        "slogans": [
+          "Folien bearbeiten",
+          "Texte und Bilder verbinden",
+          "Präsentationen speichern"
+        ],
+        "alt": "Eine Forschungsfolie im Präsentationseditor von CiterLab"
+      },
+      "ar": {
+        "title": "العروض التقديمية",
+        "heading": "قدّم بحثك للجمهور",
+        "description": "حرّر شرائح العرض داخل مساحة عملك وابنِ قصة بحثك بالنصوص والصور.",
+        "slogans": [
+          "حرّر شرائحك",
+          "اجمع النصوص والصور",
+          "احفظ عرضك التقديمي"
+        ],
+        "alt": "شريحة بحثية في محرّر العروض التقديمية داخل CiterLab"
+      }
+    },
+    {
+      "id": "lo_draw",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/lo_draw.webp",
+      "icon": "images/gallery/icon-lo_draw.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "GÖRSEL",
+        "heading": "Fikirlerinize görsel düzen verin",
+        "description": "Çizim belgesinde şekilleri, metni ve görselleri bir araya getirerek açıklayıcı sayfalar hazırlayın.",
+        "slogans": [
+          "Şekillerle anlatın",
+          "Metin ve görselleri yerleştirin",
+          "Çizim belgenizi kaydedin"
+        ],
+        "alt": "CiterLab görsel belge düzenleyicisinde şekiller ve metin içeren çizim sayfası"
+      },
+      "en": {
+        "title": "Drawing Document",
+        "heading": "Give ideas a visual structure",
+        "description": "Combine shapes, text and images in a drawing document to create clear visual explanations.",
+        "slogans": [
+          "Explain with shapes",
+          "Arrange text and images",
+          "Save your drawing document"
+        ],
+        "alt": "A drawing page with shapes and text in the CiterLab drawing document editor"
+      },
+      "de": {
+        "title": "Zeichnungsdokument",
+        "heading": "Ideen visuell ordnen",
+        "description": "Verbinden Sie Formen, Texte und Bilder in einem Zeichnungsdokument zu anschaulichen Erklärungen.",
+        "slogans": [
+          "Mit Formen erklären",
+          "Texte und Bilder anordnen",
+          "Zeichnungsdokumente speichern"
+        ],
+        "alt": "Eine Zeichnungsseite mit Formen und Text im Zeichnungseditor von CiterLab"
+      },
+      "ar": {
+        "title": "وثائق الرسم",
+        "heading": "امنح أفكارك شكلًا بصريًا",
+        "description": "اجمع الأشكال والنصوص والصور في وثيقة رسم لإنشاء شروح بصرية واضحة.",
+        "slogans": [
+          "اشرح بالأشكال",
+          "رتّب النصوص والصور",
+          "احفظ وثيقة الرسم"
+        ],
+        "alt": "صفحة رسم تحتوي على أشكال ونصوص في محرّر وثائق الرسم في CiterLab"
+      }
+    },
+    {
+      "id": "lo_math",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/lo_math.webp",
+      "icon": "images/gallery/icon-lo_math.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "FORMÜL",
+        "heading": "Matematiksel ifadeleri düzenleyin",
+        "description": "Formül belgenizi ayrı bir sekmede oluşturun; matematiksel gösterimi düzenleyerek çalışmanızı kaydedin.",
+        "slogans": [
+          "Formülleri ayrı sekmede çalışın",
+          "Matematiksel gösterimi düzenleyin",
+          "Formül belgenizi kaydedin"
+        ],
+        "alt": "CiterLab formül düzenleyicisinde açık bir matematiksel ifade"
+      },
+      "en": {
+        "title": "Formula Editor",
+        "heading": "Shape mathematical expressions",
+        "description": "Create a formula document in its own tab, edit mathematical notation and save your work.",
+        "slogans": [
+          "Work on formulas in a tab",
+          "Edit mathematical notation",
+          "Save your formula document"
+        ],
+        "alt": "A mathematical expression open in the CiterLab formula editor"
+      },
+      "de": {
+        "title": "Formeleditor",
+        "heading": "Mathematische Ausdrücke gestalten",
+        "description": "Erstellen Sie ein Formeldokument in einem eigenen Tab, bearbeiten Sie die mathematische Notation und speichern Sie Ihre Arbeit.",
+        "slogans": [
+          "Formeln im eigenen Tab bearbeiten",
+          "Mathematische Notation gestalten",
+          "Formeldokumente speichern"
+        ],
+        "alt": "Ein mathematischer Ausdruck im Formeleditor von CiterLab"
+      },
+      "ar": {
+        "title": "محرّر الصيغ",
+        "heading": "صُغ التعبيرات الرياضية",
+        "description": "أنشئ وثيقة صيغ في تبويب مستقل وحرّر الترميز الرياضي، ثم احفظ عملك.",
+        "slogans": [
+          "اعمل على الصيغ في تبويب",
+          "حرّر الترميز الرياضي",
+          "احفظ وثيقة الصيغ"
+        ],
+        "alt": "تعبير رياضي مفتوح في محرّر الصيغ في CiterLab"
+      }
+    },
+    {
+      "id": "lo_base",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/lo_base.webp",
+      "icon": "images/gallery/icon-lo_base.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "VERİTABANI",
+        "heading": "Veritabanı belgenize yer açın",
+        "description": "Veritabanı belgelerini çalışma alanındaki ayrı bir sekmede açın ve veritabanı düzenleyicisiyle çalışın.",
+        "slogans": [
+          "Veritabanı belgesini açın",
+          "Ayrı sekmede çalışın",
+          "Belgenizi kaydedin"
+        ],
+        "alt": "CiterLab içindeki veritabanı belgesi düzenleyicisi"
+      },
+      "en": {
+        "title": "Database Editor",
+        "heading": "Make room for database work",
+        "description": "Open database documents in a dedicated workspace tab and work with the database editor.",
+        "slogans": [
+          "Open a database document",
+          "Work in a dedicated tab",
+          "Save your document"
+        ],
+        "alt": "The database document editor within CiterLab"
+      },
+      "de": {
+        "title": "Datenbankeditor",
+        "heading": "Platz für Datenbankarbeit",
+        "description": "Öffnen Sie Datenbankdokumente in einem eigenen Tab und arbeiten Sie mit dem Datenbankeditor.",
+        "slogans": [
+          "Datenbankdokumente öffnen",
+          "Im eigenen Tab arbeiten",
+          "Dokumente speichern"
+        ],
+        "alt": "Der Editor für Datenbankdokumente in CiterLab"
+      },
+      "ar": {
+        "title": "محرّر قواعد البيانات",
+        "heading": "مساحة للعمل بقواعد البيانات",
+        "description": "افتح وثائق قواعد البيانات في تبويب مخصص داخل مساحة العمل واستخدم محرّر قواعد البيانات.",
+        "slogans": [
+          "افتح وثيقة قاعدة بيانات",
+          "اعمل في تبويب مخصص",
+          "احفظ وثيقتك"
+        ],
+        "alt": "محرّر وثائق قواعد البيانات داخل CiterLab"
+      }
+    },
+    {
+      "id": "text",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/text.webp",
+      "icon": "images/gallery/icon-text.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "TXT Editör",
+        "heading": "Düşüncenizi hemen kaydedin",
+        "description": "Düz metin notlarınızı belge sekmesinde yazın, düzenleyin ve dosyaya kaydedin.",
+        "slogans": [
+          "Not almaya başlayın",
+          "Düz metni doğrudan düzenleyin",
+          "Metninizi dosyaya kaydedin"
+        ],
+        "alt": "CiterLab TXT Editör sekmesinde araştırma notları"
+      },
+      "en": {
+        "title": "Text Editor",
+        "heading": "Capture a thought immediately",
+        "description": "Write and edit plain text notes in a document tab, then save them to a file.",
+        "slogans": [
+          "Start taking notes",
+          "Edit plain text directly",
+          "Save your text to a file"
+        ],
+        "alt": "Research notes in the CiterLab Text Editor tab"
+      },
+      "de": {
+        "title": "Texteditor",
+        "heading": "Gedanken sofort festhalten",
+        "description": "Schreiben und bearbeiten Sie einfache Textnotizen in einem Dokument-Tab und speichern Sie sie als Datei.",
+        "slogans": [
+          "Direkt Notizen schreiben",
+          "Klartext bearbeiten",
+          "Texte als Datei speichern"
+        ],
+        "alt": "Forschungsnotizen im Texteditor-Tab von CiterLab"
+      },
+      "ar": {
+        "title": "محرّر النصوص",
+        "heading": "دوّن الفكرة فورًا",
+        "description": "اكتب ملاحظاتك النصية وحرّرها في تبويب وثيقة، ثم احفظها في ملف.",
+        "slogans": [
+          "ابدأ بتدوين الملاحظات",
+          "حرّر النص العادي مباشرة",
+          "احفظ نصك في ملف"
+        ],
+        "alt": "ملاحظات بحثية في تبويب محرّر النصوص في CiterLab"
+      }
+    },
+    {
+      "id": "tex",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/tex.webp",
+      "icon": "images/gallery/icon-tex.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "TeX Studio",
+        "heading": "Bilimsel metni özenle kurun",
+        "description": "TeX ve LaTeX kaynağınızı düzenleyin; derleme araçlarıyla üretilen belgeyi önizleyip çalışmanızı geliştirin.",
+        "slogans": [
+          "LaTeX kaynağını düzenleyin",
+          "Derleme çıktısını inceleyin",
+          "Belge önizlemesiyle ilerleyin"
+        ],
+        "alt": "CiterLab TeX Studio ekranında LaTeX kaynak kodu ve belge önizlemesi"
+      },
+      "en": {
+        "title": "TeX Studio",
+        "heading": "Compose scientific text carefully",
+        "description": "Edit TeX and LaTeX source, inspect compiler output and refine your work with a document preview.",
+        "slogans": [
+          "Edit LaTeX source",
+          "Inspect compiler output",
+          "Work with a document preview"
+        ],
+        "alt": "LaTeX source code and a document preview in CiterLab TeX Studio"
+      },
+      "de": {
+        "title": "TeX Studio",
+        "heading": "Wissenschaftliche Texte sorgfältig setzen",
+        "description": "Bearbeiten Sie TeX- und LaTeX-Quelltext, prüfen Sie die Compiler-Ausgabe und verfeinern Sie Ihre Arbeit mit der Dokumentvorschau.",
+        "slogans": [
+          "LaTeX-Quelltext bearbeiten",
+          "Compiler-Ausgabe prüfen",
+          "Mit Dokumentvorschau arbeiten"
+        ],
+        "alt": "LaTeX-Quelltext und Dokumentvorschau in CiterLab TeX Studio"
+      },
+      "ar": {
+        "title": "استوديو TeX",
+        "heading": "صُغ نصك العلمي بعناية",
+        "description": "حرّر مصدر TeX وLaTeX، وراجع مخرجات التجميع وطوّر عملك باستخدام معاينة الوثيقة.",
+        "slogans": [
+          "حرّر مصدر LaTeX",
+          "راجع مخرجات التجميع",
+          "اعمل مع معاينة الوثيقة"
+        ],
+        "alt": "شيفرة مصدر LaTeX ومعاينة وثيقة في استوديو TeX في CiterLab"
+      }
+    },
+    {
+      "id": "pdf",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/pdf.webp",
+      "icon": "images/gallery/icon-pdf.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "PDF Editör",
+        "heading": "Okumayı araştırmaya bağlayın",
+        "description": "PDF sayfalarında gezinin, metin arayın ve belgeyi araştırma araçlarınızla aynı çalışma alanında inceleyin.",
+        "slogans": [
+          "Sayfalar arasında gezinin",
+          "Belgede metin arayın",
+          "Okuma görünümünü ayarlayın"
+        ],
+        "alt": "CiterLab PDF çalışma alanında açık bir araştırma belgesi ve sayfa araçları"
+      },
+      "en": {
+        "title": "PDF Editor",
+        "heading": "Connect reading to research",
+        "description": "Navigate PDF pages, search text and examine documents in the same workspace as your research tools.",
+        "slogans": [
+          "Navigate between pages",
+          "Search document text",
+          "Adjust your reading view"
+        ],
+        "alt": "A research document and page tools open in the CiterLab PDF workspace"
+      },
+      "de": {
+        "title": "PDF-Editor",
+        "heading": "Lesen mit Forschung verbinden",
+        "description": "Navigieren Sie durch PDF-Seiten, suchen Sie Text und prüfen Sie Dokumente im selben Arbeitsbereich wie Ihre Forschungswerkzeuge.",
+        "slogans": [
+          "Zwischen Seiten navigieren",
+          "Dokumenttext durchsuchen",
+          "Die Leseansicht anpassen"
+        ],
+        "alt": "Ein Forschungsdokument mit Seitenwerkzeugen im PDF-Arbeitsbereich von CiterLab"
+      },
+      "ar": {
+        "title": "محرّر PDF",
+        "heading": "اربط القراءة بالبحث",
+        "description": "تنقّل بين صفحات PDF وابحث في النص وراجع الوثائق في مساحة العمل نفسها التي تضم أدوات بحثك.",
+        "slogans": [
+          "تنقّل بين الصفحات",
+          "ابحث في نص الوثيقة",
+          "اضبط عرض القراءة"
+        ],
+        "alt": "وثيقة بحثية مفتوحة مع أدوات الصفحات في مساحة PDF في CiterLab"
+      }
+    },
+    {
+      "id": "paint",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/paint.webp",
+      "icon": "images/gallery/icon-paint.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Karalama Defteri",
+        "heading": "Fikrin ilk çizgisini atın",
+        "description": "Serbest çizim yapın, renklerle düşünün ve araştırma fikrinizi görsel bir taslağa dönüştürün.",
+        "slogans": [
+          "Serbestçe çizim yapın",
+          "Renk ve kalem seçin",
+          "Görsel taslaklar hazırlayın"
+        ],
+        "alt": "CiterLab Karalama Defteri ekranında çizim tuvali ve kalem araçları"
+      },
+      "en": {
+        "title": "Sketchbook",
+        "heading": "Draw the first idea",
+        "description": "Sketch freely, think in color and turn your research idea into a visual draft.",
+        "slogans": [
+          "Draw freely",
+          "Choose colors and pens",
+          "Create visual drafts"
+        ],
+        "alt": "A drawing canvas and pen tools in the CiterLab Sketchbook"
+      },
+      "de": {
+        "title": "Skizzenbuch",
+        "heading": "Die erste Idee zeichnen",
+        "description": "Skizzieren Sie frei, denken Sie in Farben und verwandeln Sie Ihre Forschungsidee in einen visuellen Entwurf.",
+        "slogans": [
+          "Frei zeichnen",
+          "Farben und Stifte wählen",
+          "Visuelle Entwürfe erstellen"
+        ],
+        "alt": "Zeichenfläche und Stiftwerkzeuge im Skizzenbuch von CiterLab"
+      },
+      "ar": {
+        "title": "دفتر الرسم",
+        "heading": "ارسم بداية الفكرة",
+        "description": "ارسم بحرية وفكّر بالألوان وحوّل فكرتك البحثية إلى مسودة بصرية.",
+        "slogans": [
+          "ارسم بحرية",
+          "اختر الألوان والأقلام",
+          "أنشئ مسودات بصرية"
+        ],
+        "alt": "لوحة رسم وأدوات أقلام في دفتر الرسم في CiterLab"
+      }
+    },
+    {
+      "id": "epub",
+      "category": "documents",
+      "type": "tab",
+      "image": "images/gallery/epub.webp",
+      "icon": "images/gallery/icon-epub.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "EPUB Okuyucu",
+        "heading": "Kitap boyunca rahatça ilerleyin",
+        "description": "EPUB kitabınızı açın; içindekiler, metin arama ve okuma ayarlarıyla ihtiyacınız olan bölüme ulaşın.",
+        "slogans": [
+          "İçindekilerden bölüme geçin",
+          "Kitap içinde arama yapın",
+          "Yazı boyutunu ayarlayın"
+        ],
+        "alt": "CiterLab EPUB Okuyucu ekranında kitap bölümü ve içindekiler listesi"
+      },
+      "en": {
+        "title": "EPUB Reader",
+        "heading": "Move through books comfortably",
+        "description": "Open an EPUB book and reach the section you need with contents navigation, text search and reading settings.",
+        "slogans": [
+          "Navigate through the contents",
+          "Search within the book",
+          "Adjust the font size"
+        ],
+        "alt": "A book chapter and contents list in the CiterLab EPUB Reader"
+      },
+      "de": {
+        "title": "EPUB-Reader",
+        "heading": "Bücher bequem erschließen",
+        "description": "Öffnen Sie ein EPUB-Buch und finden Sie benötigte Abschnitte über Inhaltsverzeichnis, Textsuche und Leseeinstellungen.",
+        "slogans": [
+          "Über das Inhaltsverzeichnis navigieren",
+          "Im Buch suchen",
+          "Die Schriftgröße anpassen"
+        ],
+        "alt": "Buchkapitel und Inhaltsverzeichnis im EPUB-Reader von CiterLab"
+      },
+      "ar": {
+        "title": "قارئ EPUB",
+        "heading": "تنقّل في الكتب براحة",
+        "description": "افتح كتاب EPUB واصل إلى القسم الذي تحتاجه باستخدام الفهرس والبحث النصي وإعدادات القراءة.",
+        "slogans": [
+          "تنقّل عبر الفهرس",
+          "ابحث داخل الكتاب",
+          "اضبط حجم الخط"
+        ],
+        "alt": "فصل كتاب وقائمة محتويات في قارئ EPUB في CiterLab"
+      }
+    },
+    {
+      "id": "web",
+      "category": "research",
+      "type": "tab",
+      "image": "images/gallery/web.webp",
+      "icon": "images/gallery/icon-web.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Web Tarayıcısı",
+        "heading": "Web araştırmasını yakın tutun",
+        "description": "Web sayfalarını çalışma alanınızdaki bir sekmede açın ve kaynakları belgelerinizle yan yana inceleyin.",
+        "slogans": [
+          "Adresi sekmede açın",
+          "Sayfalar arasında gezinin",
+          "Kaynakları yan yana inceleyin"
+        ],
+        "alt": "CiterLab Web Tarayıcısı sekmesinde açık bir araştırma sayfası"
+      },
+      "en": {
+        "title": "Web Browser",
+        "heading": "Keep web research close",
+        "description": "Open web pages in a workspace tab and examine sources alongside your documents.",
+        "slogans": [
+          "Open a page by address",
+          "Navigate between pages",
+          "Review sources side by side"
+        ],
+        "alt": "A research page open in the CiterLab Web Browser tab"
+      },
+      "de": {
+        "title": "Webbrowser",
+        "heading": "Webrecherche in Reichweite",
+        "description": "Öffnen Sie Webseiten in einem Arbeitsbereich-Tab und prüfen Sie Quellen neben Ihren Dokumenten.",
+        "slogans": [
+          "Seiten per Adresse öffnen",
+          "Zwischen Seiten navigieren",
+          "Quellen nebeneinander prüfen"
+        ],
+        "alt": "Eine Rechercheseite im Webbrowser-Tab von CiterLab"
+      },
+      "ar": {
+        "title": "متصفّح الويب",
+        "heading": "أبقِ بحث الويب قريبًا",
+        "description": "افتح صفحات الويب في تبويب داخل مساحة العمل وراجع المصادر إلى جانب وثائقك.",
+        "slogans": [
+          "افتح الصفحة بعنوانها",
+          "تنقّل بين الصفحات",
+          "راجع المصادر جنبًا إلى جنب"
+        ],
+        "alt": "صفحة بحثية مفتوحة في تبويب متصفّح الويب في CiterLab"
+      }
+    },
+    {
+      "id": "media",
+      "category": "utilities",
+      "type": "tab",
+      "image": "images/gallery/media.webp",
+      "icon": "images/gallery/icon-media.png",
+      "width": 1475,
+      "height": 900,
+      "tr": {
+        "title": "Medya Oynatıcı",
+        "heading": "Ses ve görüntüyü inceleyin",
+        "description": "Ses veya video dosyanızı çalışma alanında açın; oynatma ve zaman çizelgesiyle ilgili bölümleri inceleyin.",
+        "slogans": [
+          "Ses ve video açın",
+          "Zaman çizelgesinde gezinin",
+          "Oynatmayı kontrol edin"
+        ],
+        "alt": "CiterLab Medya Oynatıcı ekranında açık video ve oynatma zaman çizelgesi"
+      },
+      "en": {
+        "title": "Media Player",
+        "heading": "Inspect sound and video",
+        "description": "Open audio or video in your workspace and use playback controls and the timeline to examine relevant sections.",
+        "slogans": [
+          "Open audio and video",
+          "Move along the timeline",
+          "Control playback"
+        ],
+        "alt": "A video and playback timeline open in the CiterLab Media Player"
+      },
+      "de": {
+        "title": "Mediaplayer",
+        "heading": "Ton und Video untersuchen",
+        "description": "Öffnen Sie Audio oder Video im Arbeitsbereich und untersuchen Sie relevante Abschnitte mit Wiedergabesteuerung und Zeitleiste.",
+        "slogans": [
+          "Audio und Video öffnen",
+          "Auf der Zeitleiste navigieren",
+          "Die Wiedergabe steuern"
+        ],
+        "alt": "Video mit Wiedergabezeitleiste im Mediaplayer von CiterLab"
+      },
+      "ar": {
+        "title": "مشغّل الوسائط",
+        "heading": "راجع الصوت والفيديو",
+        "description": "افتح الصوت أو الفيديو في مساحة عملك واستخدم عناصر التشغيل والخط الزمني لمراجعة الأجزاء المطلوبة.",
+        "slogans": [
+          "افتح الصوت والفيديو",
+          "تنقّل على الخط الزمني",
+          "تحكّم في التشغيل"
+        ],
+        "alt": "فيديو مفتوح وخط زمني للتشغيل في مشغّل الوسائط في CiterLab"
+      }
+    },
+    {
+      "id": "automation",
+      "category": "utilities",
+      "type": "tab",
+      "image": "images/gallery/automation.webp",
+      "icon": "images/gallery/icon-automation.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Belge İşlemleri",
+        "heading": "Belge işlerini bir araya getirin",
+        "description": "Dosyalarınızı işlem listesine ekleyin ve dönüştürme, birleştirme ya da ayırma seçenekleriyle çalışın.",
+        "slogans": [
+          "Dosyaları bir listede toplayın",
+          "Belge işlemini seçin",
+          "İşlem durumunu izleyin"
+        ],
+        "alt": "CiterLab Belge İşlemleri ekranında dosya listesi ve belge işlem seçenekleri"
+      },
+      "en": {
+        "title": "Document Operations",
+        "heading": "Bring document tasks together",
+        "description": "Add files to an operation list and work with conversion, merging or splitting options.",
+        "slogans": [
+          "Gather files in one list",
+          "Choose a document operation",
+          "Track operation status"
+        ],
+        "alt": "A file list and document operation options in CiterLab Document Operations"
+      },
+      "de": {
+        "title": "Dokumentwerkzeuge",
+        "heading": "Dokumentaufgaben zusammenführen",
+        "description": "Fügen Sie Dateien einer Verarbeitungsliste hinzu und wählen Sie Optionen zum Konvertieren, Zusammenführen oder Aufteilen.",
+        "slogans": [
+          "Dateien in einer Liste sammeln",
+          "Eine Dokumentaktion wählen",
+          "Den Verarbeitungsstatus verfolgen"
+        ],
+        "alt": "Dateiliste und Verarbeitungsoptionen in den Dokumentwerkzeugen von CiterLab"
+      },
+      "ar": {
+        "title": "عمليات الوثائق",
+        "heading": "اجمع مهام الوثائق",
+        "description": "أضف الملفات إلى قائمة العمليات واستخدم خيارات التحويل أو الدمج أو التقسيم.",
+        "slogans": [
+          "اجمع الملفات في قائمة واحدة",
+          "اختر عملية للوثائق",
+          "تابع حالة العملية"
+        ],
+        "alt": "قائمة ملفات وخيارات معالجة الوثائق في مساحة عمليات الوثائق في CiterLab"
+      }
+    },
+    {
+      "id": "mini_calc",
+      "category": "utilities",
+      "type": "tab",
+      "image": "images/gallery/mini_calc.webp",
+      "icon": "images/gallery/icon-mini_calc.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Hesap Makinesi",
+        "heading": "Küçük hesapları hızla çözün",
+        "description": "Günlük hesaplamalarınızı yapın ve işlem geçmişinden önceki adımları gözden geçirin.",
+        "slogans": [
+          "Temel işlemleri hesaplayın",
+          "Sonucu hemen görün",
+          "İşlem geçmişini izleyin"
+        ],
+        "alt": "CiterLab Hesap Makinesi ekranında sayısal sonuç ve işlem geçmişi"
+      },
+      "en": {
+        "title": "Calculator",
+        "heading": "Handle quick calculations",
+        "description": "Perform everyday calculations and review previous steps in the calculation history.",
+        "slogans": [
+          "Calculate basic operations",
+          "See the result immediately",
+          "Review calculation history"
+        ],
+        "alt": "A numerical result and calculation history in the CiterLab Calculator"
+      },
+      "de": {
+        "title": "Taschenrechner",
+        "heading": "Kleine Rechnungen schnell lösen",
+        "description": "Erledigen Sie alltägliche Berechnungen und prüfen Sie frühere Schritte im Rechenverlauf.",
+        "slogans": [
+          "Grundrechenarten ausführen",
+          "Ergebnisse sofort sehen",
+          "Den Rechenverlauf prüfen"
+        ],
+        "alt": "Zahlenergebnis und Rechenverlauf im Taschenrechner von CiterLab"
+      },
+      "ar": {
+        "title": "الآلة الحاسبة",
+        "heading": "أنجز الحسابات السريعة",
+        "description": "نفّذ الحسابات اليومية وراجع الخطوات السابقة في سجل العمليات.",
+        "slogans": [
+          "احسب العمليات الأساسية",
+          "شاهد النتيجة فورًا",
+          "راجع سجل الحسابات"
+        ],
+        "alt": "نتيجة رقمية وسجل عمليات في الآلة الحاسبة في CiterLab"
+      }
+    },
+    {
+      "id": "signature",
+      "category": "utilities",
+      "type": "tab",
+      "image": "images/gallery/signature.webp",
+      "icon": "images/gallery/icon-signature.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "İmza Yöneticisi",
+        "heading": "Görsel imzanızı hazırlayın",
+        "description": "İmza çiziminizi oluşturun veya bir imza görselini düzenleyin; önizleyip belgeye eklemek üzere hazırlayın.",
+        "slogans": [
+          "İmzanızı çizerek oluşturun",
+          "Görseli kırpıp düzenleyin",
+          "Şeffaf önizlemeyi inceleyin"
+        ],
+        "alt": "CiterLab İmza Yöneticisi ekranında çizilmiş örnek imza ve görsel önizlemesi"
+      },
+      "en": {
+        "title": "Signature Manager",
+        "heading": "Prepare a signature image",
+        "description": "Draw a signature or edit a signature image, then preview it and prepare it for insertion into a document.",
+        "slogans": [
+          "Draw a signature",
+          "Crop and refine the image",
+          "Inspect the transparent preview"
+        ],
+        "alt": "A drawn sample signature and image preview in the CiterLab Signature Manager"
+      },
+      "de": {
+        "title": "Signaturverwaltung",
+        "heading": "Ein Unterschriftsbild vorbereiten",
+        "description": "Zeichnen Sie eine Unterschrift oder bearbeiten Sie ein Unterschriftsbild und bereiten Sie es mit Vorschau zum Einfügen vor.",
+        "slogans": [
+          "Eine Unterschrift zeichnen",
+          "Das Bild zuschneiden und bearbeiten",
+          "Die transparente Vorschau prüfen"
+        ],
+        "alt": "Gezeichnete Beispielunterschrift und Bildvorschau in der Signaturverwaltung von CiterLab"
+      },
+      "ar": {
+        "title": "مدير التوقيعات",
+        "heading": "جهّز صورة توقيعك",
+        "description": "ارسم توقيعًا أو حرّر صورته، ثم عاينها وجهّزها للإدراج في وثيقة.",
+        "slogans": [
+          "ارسم توقيعًا",
+          "اقتصص الصورة وحسّنها",
+          "راجع المعاينة الشفافة"
+        ],
+        "alt": "توقيع تجريبي مرسوم ومعاينة صورته في مدير التوقيعات في CiterLab"
+      }
+    },
+    {
+      "id": "projects",
+      "category": "research",
+      "type": "tab",
+      "image": "images/gallery/projects.webp",
+      "icon": "images/gallery/icon-projects.png",
+      "width": 1920,
+      "height": 1020,
+      "tr": {
+        "title": "Projelerim",
+        "heading": "Araştırmanıza kaldığınız yerden dönün",
+        "description": "Çalışma alanlarınızı ve proje belgelerinizi birlikte görün; proje ayrıntıları ve notlarıyla çalışmanızı sürdürün.",
+        "slogans": [
+          "Projeleri bir listede görün",
+          "Belgelere yeniden ulaşın",
+          "Proje notlarını birlikte tutun"
+        ],
+        "alt": "CiterLab Projelerim ekranında proje listesi, belgeler ve proje ayrıntıları"
+      },
+      "en": {
+        "title": "My Projects",
+        "heading": "Pick up your research",
+        "description": "See your workspaces and project documents together, then continue with project details and notes close at hand.",
+        "slogans": [
+          "See projects in one list",
+          "Return to your documents",
+          "Keep project notes together"
+        ],
+        "alt": "Project list, documents and project details in the CiterLab My Projects workspace"
+      },
+      "de": {
+        "title": "Meine Projekte",
+        "heading": "Die Forschung wieder aufnehmen",
+        "description": "Sehen Sie Arbeitsbereiche und Projektdokumente gemeinsam und setzen Sie Ihre Arbeit mit Projektdetails und Notizen fort.",
+        "slogans": [
+          "Projekte in einer Liste sehen",
+          "Zu Dokumenten zurückkehren",
+          "Projektnotizen zusammenhalten"
+        ],
+        "alt": "Projektliste, Dokumente und Projektdetails im Bereich Meine Projekte von CiterLab"
+      },
+      "ar": {
+        "title": "مشاريعي",
+        "heading": "استأنف بحثك",
+        "description": "شاهد مساحات العمل ووثائق المشاريع معًا، ثم واصل عملك مع تفاصيل المشروع وملاحظاته في متناولك.",
+        "slogans": [
+          "شاهد المشاريع في قائمة واحدة",
+          "عُد إلى وثائقك",
+          "اجمع ملاحظات المشروع"
+        ],
+        "alt": "قائمة مشاريع ووثائق وتفاصيل مشروع في مساحة مشاريعي في CiterLab"
+      }
+    },
+    {
+      "id": "contacts_vcf",
+      "category": "utilities",
+      "type": "dialog",
+      "image": "images/gallery/contacts_vcf.webp",
+      "icon": "images/gallery/icon-contacts_vcf.png",
+      "width": 1000,
+      "height": 900,
+      "tr": {
+        "title": "Excel → Telefon Rehberi (VCF)",
+        "heading": "Tablodan kişi kartlarına",
+        "description": "Excel tablonuzdaki kişi alanlarını eşleyin ve telefon rehberine aktarılabilecek VCF dosyası hazırlayın.",
+        "slogans": [
+          "Kişi tablonuzu seçin",
+          "Alanları açıkça eşleyin",
+          "VCF çıktısı hazırlayın"
+        ],
+        "alt": "CiterLab Excel'den VCF'ye dönüştürme diyaloğunda kişi alanlarının eşlenmesi"
+      },
+      "en": {
+        "title": "Excel → Contacts (VCF)",
+        "heading": "From spreadsheet to contacts",
+        "description": "Map contact fields from an Excel sheet and prepare a VCF file for import into a contact book.",
+        "slogans": [
+          "Choose your contact table",
+          "Map fields explicitly",
+          "Prepare a VCF file"
+        ],
+        "alt": "Contact field mapping in the CiterLab Excel-to-VCF conversion dialog"
+      },
+      "de": {
+        "title": "Excel → Kontakte (VCF)",
+        "heading": "Von der Tabelle zu Kontakten",
+        "description": "Ordnen Sie Kontaktfelder einer Excel-Tabelle zu und erstellen Sie eine VCF-Datei für den Import in ein Adressbuch.",
+        "slogans": [
+          "Eine Kontakttabelle wählen",
+          "Felder eindeutig zuordnen",
+          "Eine VCF-Datei erstellen"
+        ],
+        "alt": "Zuordnung der Kontaktfelder im Excel-zu-VCF-Dialog von CiterLab"
+      },
+      "ar": {
+        "title": "من Excel إلى جهات الاتصال (VCF)",
+        "heading": "من الجدول إلى جهات الاتصال",
+        "description": "طابق حقول جهات الاتصال في جدول Excel وجهّز ملف VCF لاستيراده إلى دفتر جهات الاتصال.",
+        "slogans": [
+          "اختر جدول جهات الاتصال",
+          "طابق الحقول بوضوح",
+          "جهّز ملف VCF"
+        ],
+        "alt": "مطابقة حقول جهات الاتصال في نافذة التحويل من Excel إلى VCF في CiterLab"
+      }
+    }
+  ]
+}

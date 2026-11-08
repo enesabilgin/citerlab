@@ -22,4 +22,57 @@ The document text is unchanged. Software results shown are algorithmic matches,
 not a verification of the underlying publications or a finding of misconduct.
 The article's authors and publisher do not endorse CiterLab.
 
-CiterLab logo and original product/interface imagery: Nadidem Dijital Sistemleri.
+CiterLab branding and original interface imagery: rights remain with their
+respective right holders. Publisher: Nadidem Dijital Sistemleri.
+
+Expanded workspace gallery / Genişletilmiş çalışma alanı galerisi:
+28 tab types (including Projects) and one VCF utility dialog are shown. Launcher
+icons are exported from CiterLab's own icon API. The registered laboratory-flask
+logo is the main brand; the quotation icon remains a tool icon.
+
+Scenes use the real application at native Windows 125% and the WorkspaceWindow
+light theme. The following inputs were created specifically for demonstration:
+ANOVA data, three fictional qualitative interviews, project tasks, spreadsheet,
+editable report and presentation, process drawing, EPUB chapters, TeX notes,
+database task table, contact examples and the illustration-based video clips.
+They contain no real participant or private customer information. Numerical
+results and the exponential graph were actually computed, rather than painted
+onto screenshots. Screen captures demonstrate these scenes, not final installer
+acceptance, comparative scientific validation or a guarantee of correctness.
+
+Literature and bibliometric scenes use a bounded selection of 24 existing public
+bibliographic records from the local library, with eight shown in the literature
+list. Titles, author names, journals, DOI and year fields retain their provider
+metadata. This is not an exhaustive survey or an independently verified source
+audit. No missing citation counts, keyword labels or open-access indicators were
+invented. The personal archive and PDF/source-checking scenes use the CC BY 4.0
+Schäfer and Schwarz paper identified above. Atlas and reference-guide scenes
+retain their own source and review notices.
+
+Türkçe: Ekranlardaki kurgusal örnekler araştırma bulgusu değildir. Yerel yayın
+seçkisinin kapsamı sınırlıdır; kaynak ve yıl bilgilerinin özgün yayından kontrolü
+gereklidir. Görseller ürün tanıtımıdır; son kurulumun kabul testi sayılmaz.
+English: Fictional examples are not research findings. The local publication
+selection is limited; verify source/year information against original papers.
+Deutsch: Fiktive Beispiele sind keine Forschungsergebnisse. Die lokale Auswahl
+ist begrenzt; Quellen- und Jahresangaben sind an den Originalen zu prüfen.
+العربية: الأمثلة الافتراضية ليست نتائج بحثية. مجموعة المنشورات المحلية محدودة؛
+ينبغي التحقق من المصادر والسنوات بالرجوع إلى المنشورات الأصلية.
+
+Expanded module gallery — 2026-11-08
+
+The 29 public gallery records cover 28 tab types and one VCF conversion
+dialog, each with its actual application icon and working screen capture.
+Gallery images and icons are copied without repainting application controls.
+Screenshots show the Turkish interface under the actual WorkspaceWindow
+theme at Windows 125% scale. Worked examples and synthetic demonstration
+data illustrate software behavior; they are not empirical research findings.
+Bibliometric outcomes depend on the chosen dataset and available metadata.
+Citation matches are algorithmic results, not independent verification of
+publications. Visual signature images do not establish a qualified
+electronic signature. Existing source/license cards and translation-review
+notices remain part of their respective source content.
+
+Original article attribution above is preserved. The retained article
+screenshot is linked from the README source-context notes; the article's
+authors and publisher do not endorse CiterLab.
